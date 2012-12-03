@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22004C7816390C90009F2541 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22004C7716390C90009F2541 /* InfoPlist.strings */; };
+		220959321651F406008B7BFB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220959311651F406008B7BFB /* MessageUI.framework */; };
+		224BB9EB163FC7DD00D72F62 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8CC871635182F007B9805 /* AddressBook.framework */; };
+		224BB9EC163FC7DD00D72F62 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22F8CC8916351834007B9805 /* AddressBookUI.framework */; };
+		224BB9F1163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224BB9F0163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.m */; };
+		224BB9F4163FDAF100D72F62 /* PP_PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224BB9F3163FDAF100D72F62 /* PP_PersonViewController.m */; };
+		22C94050165C6854000282FD /* HWPhoneData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9404F165C6854000282FD /* HWPhoneData.m */; };
+		22C9409E165C8D66000282FD /* HWSearchLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C9409D165C8D66000282FD /* HWSearchLinkData.m */; };
+		22D1673B1649F8DC009B1368 /* HWProfileHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D167381649F8DC009B1368 /* HWProfileHeader.m */; };
+		22D1673C1649F8DC009B1368 /* UIView+position.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1673A1649F8DC009B1368 /* UIView+position.m */; };
+		22D167611649FEA4009B1368 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D167581649FEA4009B1368 /* FMDatabase.m */; };
+		22D167621649FEA4009B1368 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1675A1649FEA4009B1368 /* FMDatabaseAdditions.m */; };
+		22D167631649FEA4009B1368 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1675C1649FEA4009B1368 /* FMDatabasePool.m */; };
+		22D167641649FEA4009B1368 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D1675E1649FEA4009B1368 /* FMDatabaseQueue.m */; };
+		22D167651649FEA4009B1368 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D167601649FEA4009B1368 /* FMResultSet.m */; };
+		22D16768164A01FD009B1368 /* PPDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D16767164A01FD009B1368 /* PPDataCenter.m */; };
+		22D1676B164A44D0009B1368 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D1676A164A44CF009B1368 /* AssetsLibrary.framework */; };
+		22D6D95F1648AB3E0085125F /* HWProfileFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D6D95E1648AB3E0085125F /* HWProfileFooter.m */; };
+		22D6D966164907C20085125F /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D6D965164907C20085125F /* libsqlite3.0.dylib */; };
+		22D6D9EA16491B920085125F /* PPPhoneBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D6D9E716491B920085125F /* PPPhoneBook.m */; };
+		22D6D9EB16491B920085125F /* HWPlayerInfoDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D6D9E916491B920085125F /* HWPlayerInfoDataModel.m */; };
+		22D6D9EE16491BA40085125F /* HWEditPeopleBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D6D9ED16491BA40085125F /* HWEditPeopleBehavior.m */; };
+		22D6D9F816491BCF0085125F /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 22D6D9F516491BCF0085125F /* images.jpeg */; };
+		22D6D9F916491BCF0085125F /* NoName.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D6D9F616491BCF0085125F /* NoName.jpg */; };
+		22D6D9FA16491BCF0085125F /* twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D6D9F716491BCF0085125F /* twitter.png */; };
+		22D6DA0516491C090085125F /* PPPlayerInfoTableListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D6DA0316491C090085125F /* PPPlayerInfoTableListViewController.m */; };
+		22D6DA0616491C090085125F /* PPPlayerInfoTableListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D6DA0416491C090085125F /* PPPlayerInfoTableListViewController.xib */; };
+		22DDAC66162EA08D00C1EE21 /* PPRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22DDAC64162EA08D00C1EE21 /* PPRootViewController.m */; };
+		22DDAC67162EA08D00C1EE21 /* PPRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22DDAC65162EA08D00C1EE21 /* PPRootViewController.xib */; };
+		22E14071165B35BA008E73CE /* HWReviewPeopleBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E14070165B35BA008E73CE /* HWReviewPeopleBehavior.m */; };
+		22E14078165B3FA1008E73CE /* HWCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E14077165B3FA1008E73CE /* HWCustomCell.m */; };
+		22E79F0F162D45F800F64317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F0E162D45F800F64317 /* UIKit.framework */; };
+		22E79F11162D45F800F64317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F10162D45F800F64317 /* Foundation.framework */; };
+		22E79F13162D45F800F64317 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F12162D45F800F64317 /* CoreGraphics.framework */; };
+		22E79F1B162D45F800F64317 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E79F1A162D45F800F64317 /* main.m */; };
+		22E79F1F162D45F800F64317 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E79F1E162D45F800F64317 /* AppDelegate.m */; };
+		22E79F21162D45F800F64317 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E79F20162D45F800F64317 /* Default.png */; };
+		22E79F23162D45F800F64317 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E79F22162D45F800F64317 /* Default@2x.png */; };
+		22E79F25162D45F800F64317 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22E79F24162D45F800F64317 /* Default-568h@2x.png */; };
+		22E79F2D162D45F900F64317 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F2C162D45F900F64317 /* SenTestingKit.framework */; };
+		22E79F2E162D45F900F64317 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F0E162D45F800F64317 /* UIKit.framework */; };
+		22E79F2F162D45F900F64317 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E79F10162D45F800F64317 /* Foundation.framework */; };
+		22E79F37162D45F900F64317 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22E79F35162D45F900F64317 /* InfoPlist.strings */; };
+		22E79F3A162D45F900F64317 /* PPphoneBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E79F39162D45F900F64317 /* PPphoneBookTests.m */; };
+		22EA490716645B1E0082DE91 /* HWPhoneTitleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA490616645B1E0082DE91 /* HWPhoneTitleModel.m */; };
+		22EA490916646C8A0082DE91 /* PPContactDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22EA490816646C890082DE91 /* PPContactDetailViewController.xib */; };
+		22EA491116646F330082DE91 /* HWPhoneTitleSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA491016646F320082DE91 /* HWPhoneTitleSelectionViewController.m */; };
+		22EA49141664A6090082DE91 /* HWCustomLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EA49131664A6080082DE91 /* HWCustomLabelViewController.m */; };
+		22F02A66166737F000C114F2 /* PPContactViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F02A65166737EE00C114F2 /* PPContactViewContainer.m */; };
+		22F370E2163A48B000B8B885 /* PPContactDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F370E1163A48B000B8B885 /* PPContactDetailViewController.m */; };
+		22F370E5163A68E400B8B885 /* HWAddPeopleBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 22F370E4163A68E300B8B885 /* HWAddPeopleBehavior.m */; };
+		22FDE22E1640DCD100271CBF /* PP_NewPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDE22D1640DCD100271CBF /* PP_NewPersonViewController.m */; };
+		22FDE2981641034000271CBF /* AddressBookContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 22FDE2971641034000271CBF /* AddressBookContainer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E79F30162D45F900F64317 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E79F01162D45F800F64317 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E79F09162D45F800F64317;
+			remoteInfo = PPphoneBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22004C7716390C90009F2541 /* InfoPlist.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		22004C7916390CCB009F2541 /* PPContactDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = PPContactDetailViewController.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		220959311651F406008B7BFB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		224BB9EF163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PP_UIPeoplePickerNavigatorViewController.h; sourceTree = "<group>"; };
+		224BB9F0163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PP_UIPeoplePickerNavigatorViewController.m; sourceTree = "<group>"; };
+		224BB9F2163FDAF100D72F62 /* PP_PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PP_PersonViewController.h; sourceTree = "<group>"; };
+		224BB9F3163FDAF100D72F62 /* PP_PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PP_PersonViewController.m; sourceTree = "<group>"; };
+		22C9404E165C6854000282FD /* HWPhoneData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPhoneData.h; sourceTree = "<group>"; };
+		22C9404F165C6854000282FD /* HWPhoneData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPhoneData.m; sourceTree = "<group>"; };
+		22C9409C165C8D66000282FD /* HWSearchLinkData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSearchLinkData.h; sourceTree = "<group>"; };
+		22C9409D165C8D66000282FD /* HWSearchLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSearchLinkData.m; sourceTree = "<group>"; };
+		22D167371649F8DC009B1368 /* HWProfileHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWProfileHeader.h; sourceTree = "<group>"; };
+		22D167381649F8DC009B1368 /* HWProfileHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWProfileHeader.m; sourceTree = "<group>"; };
+		22D167391649F8DC009B1368 /* UIView+position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+position.h"; sourceTree = "<group>"; };
+		22D1673A1649F8DC009B1368 /* UIView+position.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+position.m"; sourceTree = "<group>"; };
+		22D167571649FEA4009B1368 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		22D167581649FEA4009B1368 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		22D167591649FEA4009B1368 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		22D1675A1649FEA4009B1368 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		22D1675B1649FEA4009B1368 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		22D1675C1649FEA4009B1368 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		22D1675D1649FEA4009B1368 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		22D1675E1649FEA4009B1368 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		22D1675F1649FEA4009B1368 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		22D167601649FEA4009B1368 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		22D16766164A01FD009B1368 /* PPDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDataCenter.h; sourceTree = "<group>"; };
+		22D16767164A01FD009B1368 /* PPDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PPDataCenter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		22D16769164A0557009B1368 /* MacroUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MacroUtils.h; path = Externals/MacroUtils.h; sourceTree = "<group>"; };
+		22D1676A164A44CF009B1368 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		22D6D95D1648AB3E0085125F /* HWProfileFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWProfileFooter.h; sourceTree = "<group>"; };
+		22D6D95E1648AB3E0085125F /* HWProfileFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWProfileFooter.m; sourceTree = "<group>"; };
+		22D6D965164907C20085125F /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		22D6D9E616491B920085125F /* PPPhoneBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPhoneBook.h; sourceTree = "<group>"; };
+		22D6D9E716491B920085125F /* PPPhoneBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPhoneBook.m; sourceTree = "<group>"; };
+		22D6D9E816491B920085125F /* HWPlayerInfoDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPlayerInfoDataModel.h; sourceTree = "<group>"; };
+		22D6D9E916491B920085125F /* HWPlayerInfoDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPlayerInfoDataModel.m; sourceTree = "<group>"; };
+		22D6D9EC16491BA40085125F /* HWEditPeopleBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWEditPeopleBehavior.h; sourceTree = "<group>"; };
+		22D6D9ED16491BA40085125F /* HWEditPeopleBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWEditPeopleBehavior.m; sourceTree = "<group>"; };
+		22D6D9F516491BCF0085125F /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		22D6D9F616491BCF0085125F /* NoName.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NoName.jpg; sourceTree = "<group>"; };
+		22D6D9F716491BCF0085125F /* twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitter.png; sourceTree = "<group>"; };
+		22D6DA0216491C090085125F /* PPPlayerInfoTableListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPPlayerInfoTableListViewController.h; sourceTree = "<group>"; };
+		22D6DA0316491C090085125F /* PPPlayerInfoTableListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPPlayerInfoTableListViewController.m; sourceTree = "<group>"; };
+		22D6DA0416491C090085125F /* PPPlayerInfoTableListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPPlayerInfoTableListViewController.xib; sourceTree = "<group>"; };
+		22DDAC63162EA08D00C1EE21 /* PPRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPRootViewController.h; sourceTree = "<group>"; };
+		22DDAC64162EA08D00C1EE21 /* PPRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPRootViewController.m; sourceTree = "<group>"; };
+		22DDAC65162EA08D00C1EE21 /* PPRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPRootViewController.xib; sourceTree = "<group>"; };
+		22E1406F165B35BA008E73CE /* HWReviewPeopleBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWReviewPeopleBehavior.h; sourceTree = "<group>"; };
+		22E14070165B35BA008E73CE /* HWReviewPeopleBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWReviewPeopleBehavior.m; sourceTree = "<group>"; };
+		22E14076165B3FA1008E73CE /* HWCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCustomCell.h; sourceTree = "<group>"; };
+		22E14077165B3FA1008E73CE /* HWCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HWCustomCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		22E79F0A162D45F800F64317 /* PPphoneBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PPphoneBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E79F0E162D45F800F64317 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22E79F10162D45F800F64317 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22E79F12162D45F800F64317 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22E79F16162D45F800F64317 /* PPphoneBook-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPphoneBook-Info.plist"; sourceTree = "<group>"; };
+		22E79F1A162D45F800F64317 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22E79F1C162D45F800F64317 /* PPphoneBook-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PPphoneBook-Prefix.pch"; sourceTree = "<group>"; };
+		22E79F1D162D45F800F64317 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22E79F1E162D45F800F64317 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22E79F20162D45F800F64317 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		22E79F22162D45F800F64317 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		22E79F24162D45F800F64317 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		22E79F2B162D45F900F64317 /* PPphoneBookTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PPphoneBookTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E79F2C162D45F900F64317 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		22E79F34162D45F900F64317 /* PPphoneBookTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PPphoneBookTests-Info.plist"; sourceTree = "<group>"; };
+		22E79F36162D45F900F64317 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22E79F38162D45F900F64317 /* PPphoneBookTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPphoneBookTests.h; sourceTree = "<group>"; };
+		22E79F39162D45F900F64317 /* PPphoneBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPphoneBookTests.m; sourceTree = "<group>"; };
+		22EA490516645B1E0082DE91 /* HWPhoneTitleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPhoneTitleModel.h; sourceTree = "<group>"; };
+		22EA490616645B1E0082DE91 /* HWPhoneTitleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPhoneTitleModel.m; sourceTree = "<group>"; };
+		22EA490816646C890082DE91 /* PPContactDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPContactDetailViewController.xib; sourceTree = "<group>"; };
+		22EA490F16646F310082DE91 /* HWPhoneTitleSelectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWPhoneTitleSelectionViewController.h; sourceTree = "<group>"; };
+		22EA491016646F320082DE91 /* HWPhoneTitleSelectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWPhoneTitleSelectionViewController.m; sourceTree = "<group>"; };
+		22EA49121664A6070082DE91 /* HWCustomLabelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWCustomLabelViewController.h; sourceTree = "<group>"; };
+		22EA49131664A6080082DE91 /* HWCustomLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWCustomLabelViewController.m; sourceTree = "<group>"; };
+		22F02A64166737ED00C114F2 /* PPContactViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPContactViewContainer.h; sourceTree = "<group>"; };
+		22F02A65166737EE00C114F2 /* PPContactViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPContactViewContainer.m; sourceTree = "<group>"; };
+		22F370E1163A48B000B8B885 /* PPContactDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = PPContactDetailViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		22F370E3163A68E300B8B885 /* HWAddPeopleBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWAddPeopleBehavior.h; sourceTree = "<group>"; };
+		22F370E4163A68E300B8B885 /* HWAddPeopleBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HWAddPeopleBehavior.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		22F8CC871635182F007B9805 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		22F8CC8916351834007B9805 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		22FDE22A1640D5D100271CBF /* CommonVar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonVar.h; sourceTree = "<group>"; };
+		22FDE22C1640DCD100271CBF /* PP_NewPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PP_NewPersonViewController.h; sourceTree = "<group>"; };
+		22FDE22D1640DCD100271CBF /* PP_NewPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PP_NewPersonViewController.m; sourceTree = "<group>"; };
+		22FDE2961641034000271CBF /* AddressBookContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressBookContainer.h; sourceTree = "<group>"; };
+		22FDE2971641034000271CBF /* AddressBookContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressBookContainer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E79F07162D45F800F64317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220959321651F406008B7BFB /* MessageUI.framework in Frameworks */,
+				22D1676B164A44D0009B1368 /* AssetsLibrary.framework in Frameworks */,
+				22D6D966164907C20085125F /* libsqlite3.0.dylib in Frameworks */,
+				224BB9EB163FC7DD00D72F62 /* AddressBook.framework in Frameworks */,
+				224BB9EC163FC7DD00D72F62 /* AddressBookUI.framework in Frameworks */,
+				22E79F0F162D45F800F64317 /* UIKit.framework in Frameworks */,
+				22E79F11162D45F800F64317 /* Foundation.framework in Frameworks */,
+				22E79F13162D45F800F64317 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E79F27162D45F900F64317 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E79F2D162D45F900F64317 /* SenTestingKit.framework in Frameworks */,
+				22E79F2E162D45F900F64317 /* UIKit.framework in Frameworks */,
+				22E79F2F162D45F900F64317 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224BB9EE163FD98500D72F62 /* AddressBook */ = {
+			isa = PBXGroup;
+			children = (
+				224BB9EF163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.h */,
+				224BB9F0163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.m */,
+				224BB9F2163FDAF100D72F62 /* PP_PersonViewController.h */,
+				224BB9F3163FDAF100D72F62 /* PP_PersonViewController.m */,
+				22FDE22C1640DCD100271CBF /* PP_NewPersonViewController.h */,
+				22FDE22D1640DCD100271CBF /* PP_NewPersonViewController.m */,
+				22FDE2961641034000271CBF /* AddressBookContainer.h */,
+				22FDE2971641034000271CBF /* AddressBookContainer.m */,
+			);
+			name = AddressBook;
+			sourceTree = "<group>";
+		};
+		22D167461649FB20009B1368 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				22D16769164A0557009B1368 /* MacroUtils.h */,
+				22D167561649FEA4009B1368 /* FMDB */,
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		22D167561649FEA4009B1368 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				22D167571649FEA4009B1368 /* FMDatabase.h */,
+				22D167581649FEA4009B1368 /* FMDatabase.m */,
+				22D167591649FEA4009B1368 /* FMDatabaseAdditions.h */,
+				22D1675A1649FEA4009B1368 /* FMDatabaseAdditions.m */,
+				22D1675B1649FEA4009B1368 /* FMDatabasePool.h */,
+				22D1675C1649FEA4009B1368 /* FMDatabasePool.m */,
+				22D1675D1649FEA4009B1368 /* FMDatabaseQueue.h */,
+				22D1675E1649FEA4009B1368 /* FMDatabaseQueue.m */,
+				22D1675F1649FEA4009B1368 /* FMResultSet.h */,
+				22D167601649FEA4009B1368 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			path = Externals/FMDB;
+			sourceTree = "<group>";
+		};
+		22D4CA93162FAEDD00624FE4 /* Img */ = {
+			isa = PBXGroup;
+			children = (
+				22D6D9F516491BCF0085125F /* images.jpeg */,
+				22D6D9F616491BCF0085125F /* NoName.jpg */,
+				22D6D9F716491BCF0085125F /* twitter.png */,
+			);
+			name = Img;
+			sourceTree = "<group>";
+		};
+		22DB1398162E8D53008FC31F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22D167371649F8DC009B1368 /* HWProfileHeader.h */,
+				22D167381649F8DC009B1368 /* HWProfileHeader.m */,
+				22D167391649F8DC009B1368 /* UIView+position.h */,
+				22D1673A1649F8DC009B1368 /* UIView+position.m */,
+				22D6DA0216491C090085125F /* PPPlayerInfoTableListViewController.h */,
+				22D6DA0316491C090085125F /* PPPlayerInfoTableListViewController.m */,
+				22D6DA0416491C090085125F /* PPPlayerInfoTableListViewController.xib */,
+				22DDAC64162EA08D00C1EE21 /* PPRootViewController.m */,
+				22DDAC63162EA08D00C1EE21 /* PPRootViewController.h */,
+				22DDAC65162EA08D00C1EE21 /* PPRootViewController.xib */,
+				22004C7916390CCB009F2541 /* PPContactDetailViewController.h */,
+				22F370E1163A48B000B8B885 /* PPContactDetailViewController.m */,
+				22EA490816646C890082DE91 /* PPContactDetailViewController.xib */,
+				22D6D95D1648AB3E0085125F /* HWProfileFooter.h */,
+				22D6D95E1648AB3E0085125F /* HWProfileFooter.m */,
+				22E14076165B3FA1008E73CE /* HWCustomCell.h */,
+				22E14077165B3FA1008E73CE /* HWCustomCell.m */,
+				22EA490F16646F310082DE91 /* HWPhoneTitleSelectionViewController.h */,
+				22EA491016646F320082DE91 /* HWPhoneTitleSelectionViewController.m */,
+				22EA49121664A6070082DE91 /* HWCustomLabelViewController.h */,
+				22EA49131664A6080082DE91 /* HWCustomLabelViewController.m */,
+				22F02A64166737ED00C114F2 /* PPContactViewContainer.h */,
+				22F02A65166737EE00C114F2 /* PPContactViewContainer.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		22DF47DD1636664700A0D796 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22C9409C165C8D66000282FD /* HWSearchLinkData.h */,
+				22C9409D165C8D66000282FD /* HWSearchLinkData.m */,
+				22D6D9E616491B920085125F /* PPPhoneBook.h */,
+				22D6D9E716491B920085125F /* PPPhoneBook.m */,
+				22D6D9E816491B920085125F /* HWPlayerInfoDataModel.h */,
+				22D6D9E916491B920085125F /* HWPlayerInfoDataModel.m */,
+				22D16766164A01FD009B1368 /* PPDataCenter.h */,
+				22D16767164A01FD009B1368 /* PPDataCenter.m */,
+				22C9404E165C6854000282FD /* HWPhoneData.h */,
+				22C9404F165C6854000282FD /* HWPhoneData.m */,
+				22EA490516645B1E0082DE91 /* HWPhoneTitleModel.h */,
+				22EA490616645B1E0082DE91 /* HWPhoneTitleModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		22E79EFF162D45F800F64317 = {
+			isa = PBXGroup;
+			children = (
+				22D167461649FB20009B1368 /* External */,
+				22E79F0D162D45F800F64317 /* Frameworks */,
+				22E79F14162D45F800F64317 /* PPphoneBook */,
+				22E79F32162D45F900F64317 /* PPphoneBookTests */,
+				22E79F0B162D45F800F64317 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E79F0B162D45F800F64317 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E79F0A162D45F800F64317 /* PPphoneBook.app */,
+				22E79F2B162D45F900F64317 /* PPphoneBookTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E79F0D162D45F800F64317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				220959311651F406008B7BFB /* MessageUI.framework */,
+				22D1676A164A44CF009B1368 /* AssetsLibrary.framework */,
+				22D6D965164907C20085125F /* libsqlite3.0.dylib */,
+				22F8CC871635182F007B9805 /* AddressBook.framework */,
+				22F8CC8916351834007B9805 /* AddressBookUI.framework */,
+				22E79F0E162D45F800F64317 /* UIKit.framework */,
+				22E79F10162D45F800F64317 /* Foundation.framework */,
+				22E79F12162D45F800F64317 /* CoreGraphics.framework */,
+				22E79F2C162D45F900F64317 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22E79F14162D45F800F64317 /* PPphoneBook */ = {
+			isa = PBXGroup;
+			children = (
+				224BB9EE163FD98500D72F62 /* AddressBook */,
+				22F370EA163A6C8B00B8B885 /* Mediator */,
+				22DF47DD1636664700A0D796 /* Model */,
+				22D4CA93162FAEDD00624FE4 /* Img */,
+				22DB1398162E8D53008FC31F /* View */,
+				22E79F1D162D45F800F64317 /* AppDelegate.h */,
+				22E79F1E162D45F800F64317 /* AppDelegate.m */,
+				22E79F15162D45F800F64317 /* Supporting Files */,
+				22FDE22A1640D5D100271CBF /* CommonVar.h */,
+			);
+			path = PPphoneBook;
+			sourceTree = "<group>";
+		};
+		22E79F15162D45F800F64317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22004C7716390C90009F2541 /* InfoPlist.strings */,
+				22E79F16162D45F800F64317 /* PPphoneBook-Info.plist */,
+				22E79F1A162D45F800F64317 /* main.m */,
+				22E79F1C162D45F800F64317 /* PPphoneBook-Prefix.pch */,
+				22E79F20162D45F800F64317 /* Default.png */,
+				22E79F22162D45F800F64317 /* Default@2x.png */,
+				22E79F24162D45F800F64317 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22E79F32162D45F900F64317 /* PPphoneBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E79F38162D45F900F64317 /* PPphoneBookTests.h */,
+				22E79F39162D45F900F64317 /* PPphoneBookTests.m */,
+				22E79F33162D45F900F64317 /* Supporting Files */,
+			);
+			path = PPphoneBookTests;
+			sourceTree = "<group>";
+		};
+		22E79F33162D45F900F64317 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E79F34162D45F900F64317 /* PPphoneBookTests-Info.plist */,
+				22E79F35162D45F900F64317 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F370EA163A6C8B00B8B885 /* Mediator */ = {
+			isa = PBXGroup;
+			children = (
+				22D6D9EC16491BA40085125F /* HWEditPeopleBehavior.h */,
+				22D6D9ED16491BA40085125F /* HWEditPeopleBehavior.m */,
+				22F370E3163A68E300B8B885 /* HWAddPeopleBehavior.h */,
+				22F370E4163A68E300B8B885 /* HWAddPeopleBehavior.m */,
+				22E1406F165B35BA008E73CE /* HWReviewPeopleBehavior.h */,
+				22E14070165B35BA008E73CE /* HWReviewPeopleBehavior.m */,
+			);
+			name = Mediator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E79F09162D45F800F64317 /* PPphoneBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E79F3D162D45F900F64317 /* Build configuration list for PBXNativeTarget "PPphoneBook" */;
+			buildPhases = (
+				22E79F06162D45F800F64317 /* Sources */,
+				22E79F07162D45F800F64317 /* Frameworks */,
+				22E79F08162D45F800F64317 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PPphoneBook;
+			productName = PPphoneBook;
+			productReference = 22E79F0A162D45F800F64317 /* PPphoneBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E79F2A162D45F900F64317 /* PPphoneBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E79F40162D45F900F64317 /* Build configuration list for PBXNativeTarget "PPphoneBookTests" */;
+			buildPhases = (
+				22E79F26162D45F900F64317 /* Sources */,
+				22E79F27162D45F900F64317 /* Frameworks */,
+				22E79F28162D45F900F64317 /* Resources */,
+				22E79F29162D45F900F64317 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E79F31162D45F900F64317 /* PBXTargetDependency */,
+			);
+			name = PPphoneBookTests;
+			productName = PPphoneBookTests;
+			productReference = 22E79F2B162D45F900F64317 /* PPphoneBookTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E79F01162D45F800F64317 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = HowardLin;
+			};
+			buildConfigurationList = 22E79F04162D45F800F64317 /* Build configuration list for PBXProject "PPphoneBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22E79EFF162D45F800F64317;
+			productRefGroup = 22E79F0B162D45F800F64317 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E79F09162D45F800F64317 /* PPphoneBook */,
+				22E79F2A162D45F900F64317 /* PPphoneBookTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E79F08162D45F800F64317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E79F21162D45F800F64317 /* Default.png in Resources */,
+				22E79F23162D45F800F64317 /* Default@2x.png in Resources */,
+				22E79F25162D45F800F64317 /* Default-568h@2x.png in Resources */,
+				22DDAC67162EA08D00C1EE21 /* PPRootViewController.xib in Resources */,
+				22004C7816390C90009F2541 /* InfoPlist.strings in Resources */,
+				22D6D9F816491BCF0085125F /* images.jpeg in Resources */,
+				22D6D9F916491BCF0085125F /* NoName.jpg in Resources */,
+				22D6D9FA16491BCF0085125F /* twitter.png in Resources */,
+				22D6DA0616491C090085125F /* PPPlayerInfoTableListViewController.xib in Resources */,
+				22EA490916646C8A0082DE91 /* PPContactDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E79F28162D45F900F64317 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E79F37162D45F900F64317 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22E79F29162D45F900F64317 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E79F06162D45F800F64317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E79F1B162D45F800F64317 /* main.m in Sources */,
+				22E79F1F162D45F800F64317 /* AppDelegate.m in Sources */,
+				22DDAC66162EA08D00C1EE21 /* PPRootViewController.m in Sources */,
+				22F370E2163A48B000B8B885 /* PPContactDetailViewController.m in Sources */,
+				22F370E5163A68E400B8B885 /* HWAddPeopleBehavior.m in Sources */,
+				224BB9F1163FDAD900D72F62 /* PP_UIPeoplePickerNavigatorViewController.m in Sources */,
+				224BB9F4163FDAF100D72F62 /* PP_PersonViewController.m in Sources */,
+				22FDE22E1640DCD100271CBF /* PP_NewPersonViewController.m in Sources */,
+				22FDE2981641034000271CBF /* AddressBookContainer.m in Sources */,
+				22D6D95F1648AB3E0085125F /* HWProfileFooter.m in Sources */,
+				22D6D9EA16491B920085125F /* PPPhoneBook.m in Sources */,
+				22D6D9EB16491B920085125F /* HWPlayerInfoDataModel.m in Sources */,
+				22D6D9EE16491BA40085125F /* HWEditPeopleBehavior.m in Sources */,
+				22D6DA0516491C090085125F /* PPPlayerInfoTableListViewController.m in Sources */,
+				22D1673B1649F8DC009B1368 /* HWProfileHeader.m in Sources */,
+				22D1673C1649F8DC009B1368 /* UIView+position.m in Sources */,
+				22D167611649FEA4009B1368 /* FMDatabase.m in Sources */,
+				22D167621649FEA4009B1368 /* FMDatabaseAdditions.m in Sources */,
+				22D167631649FEA4009B1368 /* FMDatabasePool.m in Sources */,
+				22D167641649FEA4009B1368 /* FMDatabaseQueue.m in Sources */,
+				22D167651649FEA4009B1368 /* FMResultSet.m in Sources */,
+				22D16768164A01FD009B1368 /* PPDataCenter.m in Sources */,
+				22E14071165B35BA008E73CE /* HWReviewPeopleBehavior.m in Sources */,
+				22E14078165B3FA1008E73CE /* HWCustomCell.m in Sources */,
+				22C94050165C6854000282FD /* HWPhoneData.m in Sources */,
+				22C9409E165C8D66000282FD /* HWSearchLinkData.m in Sources */,
+				22EA490716645B1E0082DE91 /* HWPhoneTitleModel.m in Sources */,
+				22EA491116646F330082DE91 /* HWPhoneTitleSelectionViewController.m in Sources */,
+				22EA49141664A6090082DE91 /* HWCustomLabelViewController.m in Sources */,
+				22F02A66166737F000C114F2 /* PPContactViewContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E79F26162D45F900F64317 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E79F3A162D45F900F64317 /* PPphoneBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E79F31162D45F900F64317 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E79F09162D45F800F64317 /* PPphoneBook */;
+			targetProxy = 22E79F30162D45F900F64317 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E79F35162D45F900F64317 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E79F36162D45F900F64317 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E79F3B162D45F900F64317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E79F3C162D45F900F64317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E79F3E162D45F900F64317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPphoneBook/PPphoneBook-Prefix.pch";
+				INFOPLIST_FILE = "PPphoneBook/PPphoneBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22E79F3F162D45F900F64317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPphoneBook/PPphoneBook-Prefix.pch";
+				INFOPLIST_FILE = "PPphoneBook/PPphoneBook-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		22E79F41162D45F900F64317 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PPphoneBook.app/PPphoneBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPphoneBook/PPphoneBook-Prefix.pch";
+				INFOPLIST_FILE = "PPphoneBookTests/PPphoneBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		22E79F42162D45F900F64317 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PPphoneBook.app/PPphoneBook";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PPphoneBook/PPphoneBook-Prefix.pch";
+				INFOPLIST_FILE = "PPphoneBookTests/PPphoneBookTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E79F04162D45F800F64317 /* Build configuration list for PBXProject "PPphoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E79F3B162D45F900F64317 /* Debug */,
+				22E79F3C162D45F900F64317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E79F3D162D45F900F64317 /* Build configuration list for PBXNativeTarget "PPphoneBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E79F3E162D45F900F64317 /* Debug */,
+				22E79F3F162D45F900F64317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E79F40162D45F900F64317 /* Build configuration list for PBXNativeTarget "PPphoneBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E79F41162D45F900F64317 /* Debug */,
+				22E79F42162D45F900F64317 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E79F01162D45F800F64317 /* Project object */;
+}
