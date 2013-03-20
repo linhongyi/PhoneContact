@@ -1,13 +1,13 @@
 PhoneContact
 ============
 
-It is a simple Contant Program via Cocoa Touch Framework. 
+It is a simple contant program via Cocoa Touch Framework. 
 
 For me, It is my first IOS training Program. 
 
 ==========================================================
 
-Copyright (C) <2013> <LinhongYi>
+Copyright
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
